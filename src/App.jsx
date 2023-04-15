@@ -140,7 +140,7 @@ function App() {
     <>
       <Navbar onClickExample={handleTryExample} onClickNew={handleNew} />
       <div className="container">
-        {/* <div className="pane top-pane">
+        <div className="pane top-pane">
           <Editor
             title="HTML"
             language={langs.html()}
@@ -172,13 +172,8 @@ function App() {
             width="100%"
             className="iframe-custom-class"
           ></iframe>
-        </div> */}
+        </div>
       </div>
-      <PanelGroup direction="vertical">
-        <Panel maxSize={75}>top</Panel>
-        <PanelResizeHandle />
-        <Panel maxSize={75}>bottom</Panel>
-      </PanelGroup> q
     </>
   );
 }
