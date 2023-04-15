@@ -9,7 +9,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Navbar from "./components/Navbar";
 import useLocalStorage from "./hooks/useLocalStorage";
-import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
 
 function App() {
   const [html, setHtml] = useLocalStorage("html", "");
